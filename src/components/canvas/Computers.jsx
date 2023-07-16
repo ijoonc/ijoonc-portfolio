@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Computers = () => {
+const  Computers = () => {
   return (
     <div>Computers</div>
   )
-}
+} 
 
-export default Computers
+export default Computers 

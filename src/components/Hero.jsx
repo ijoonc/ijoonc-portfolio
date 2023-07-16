@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
+import '../styles.css'
 import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
@@ -22,13 +23,50 @@ const Hero = () => {
            </p>
 
            <p className = {`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a <b className = 'text-[#007af4]'>Computer Science</b> & <b className = 'text-[#0cba00]'>Economics </b> 
-            Student @ <b className = 'text-[#efcf00]'>Harvey Mudd College</b>, and I am also a 
-            <b> Software Developer</b> and <b>Programmer</b>.
+            <b>Computer Science</b> & <b>Economics Student </b> 
+              <br className = 'sm:block hidden'/> @ <b className = 'text-[#efcf00]'>
+            <a href = 'https://www.hmc.edu/'><u>HMC</u></a></b> |
+            <b> Software Developer</b> | <b>Programmer</b>.
            </p>
-        </div>
+          
+           <a className="social-icon-linkedin social-icons-container home" href="https://www.linkedin.com/in/ijoonc/" target = "_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+           </a>
 
+           <a className="social-icon-github social-icons-container home" href="https://github.com/ijoonc" target = "_blank">
+            <ion-icon name="logo-github"></ion-icon>
+           </a>
+
+           <a className = 'resume-loader' href = 'https://docs.google.com/document/d/1a7bpFe9sS_i6esgvjNGyR59u6uSTb85XZG5wLiRv7_I/edit' target = '_blank'> 
+            Download Resume
+           </a>
+
+           <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+           ></script>
+           <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+           ></script>
+        </div>
       </div>
+
+
+      {/* <ComputersCanvas/> */}
+
+
+      <div className = "absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href = "#about">
+          <div className = "w-[35px] h-[64px] rounded-3xl border-4 flex justify-center items-start p-2">         
+            <motion.dev animate ={{ y: [0, 24, 0]}} 
+                        transition ={{ duration: 1.5, repeat: Infinity, repeatType: 'loop'}} 
+                        className = 'w-3 h-3 rounded-full bg-white mb-1' 
+            />
+          </div>
+        </a>
+      </div>
+
     </section>
   )
 }
