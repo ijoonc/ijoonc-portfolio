@@ -1,3 +1,5 @@
+/* Styles for each object in my website. */
+
 :root {
   --text-color: #ffffff;
   --main-color: #00aae8;
@@ -24,7 +26,7 @@
     color: #ffffff;
   }
   
-  .home {
+  .home-text {
     font-size: 150px;
     width: 35px;
     height: 35px;
@@ -35,9 +37,21 @@
     margin-bottom: 30px;
   }
 
+  .home-img {
+    height: 350px;
+    position: absolute;
+    top: 35%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Logo {
+    background-image: url(../profile-img.svg);
+  }
+
   .social-icons-container {
     position: relative;
-    margin-top: 49px;
+    margin-top: 48px;
   }
 
   .resume-loader {
@@ -48,14 +62,16 @@
     color: var(--text-color);
     letter-spacing: 1px;
     font-size: var(--p-font);
-    display: inline-flex;
-    text-align: center;
     margin-right: 15px;
-    margin-bottom: 30px;
-    margin-top: -100px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 67px
   }
 
   .resume-loader:hover {
     background: var(--main-color);
   }
+
+
+
   
