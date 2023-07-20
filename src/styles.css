@@ -38,11 +38,24 @@
   }
 
   .home-img {
-    height: 350px;
+    height: auto;
+    width: 30%;
+    max-height: 600px;
+    max-width: 450px;
     position: absolute;
-    top: 35%;
-    left: 82%;
+    display: flex;
+    top: 50%;
+    left: 81%;
     transform: translate(-50%, -50%);
+    border-image: linear-gradient(rgba(4,189,228,1), rgba(2,83,185,1)) 30;
+    border-width: 4px;
+    border-style: solid;
+  }
+
+  @media all and (max-width: 480px) {
+    .home-img {
+      width: 100%;
+    }
   }
 
   .Logo {
@@ -71,6 +84,7 @@
   .resume-loader:hover {
     background: var(--main-color);
   }
+
 
 
 
