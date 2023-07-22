@@ -59,7 +59,9 @@ const Hero = () => {
 
       {/* <ComputersCanvas/> */}
 
-      <img src = {Photo} alt = 'Photo' className = 'home-img'/>
+      <div className = 'home-img'>
+        <img src = {Photo} alt = 'Photo'/>
+      </div>
 
       <div className = "absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href = "#about">
