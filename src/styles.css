@@ -40,7 +40,7 @@
   .home-img {
     height: auto;
     width: 450px;
-    max-width: 50%;
+    max-width: 30%;
     position: relative;
     display: flex;
     top: 50%;
@@ -51,12 +51,27 @@
     border-style: solid;
   }
 
-  @media screen and (max-width: 1150px) {
+  @media screen and (max-width: 1200px) {
     .home-img {
       position: relative;
-      top: 750px;
-      left: 500px;
-      right: 500px;
+      top: 350px;
+      left: 975px;
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 1120px) {
+    .home-img {
+      position: relative;
+      top: 600px;
+      left: 800px;
+      width: 450px;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .home-img {
+      display: none;
     }
   }
 
