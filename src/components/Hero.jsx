@@ -26,7 +26,7 @@ const Hero = () => {
             <p className = {`${styles.heroSubText} mt-2 text-white-100`}>
               <b>Computer Science</b> & <b>Economics Student </b> 
                 <br className = 'sm:block hidden'/> @ <b className = 'text-[#efcf00]'>
-              <a href = 'https://www.hmc.edu/'><u>HMC</u></a></b> |
+              <a href = 'https://www.hmc.edu/' target = '_blank'><u>HMC</u></a></b> |
               <b> Software Developer</b> | <b>Programmer</b>.
             </p>
            </div>

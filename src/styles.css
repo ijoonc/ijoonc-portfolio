@@ -69,7 +69,16 @@
     }
   }
 
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1000px) {
+    .home-img {
+      position: relative;
+      top: 600px;
+      left: 650px;
+      width: 450px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
     .home-img {
       display: none;
     }
