@@ -60,11 +60,11 @@
     }
   }
 
-  @media screen and (max-width: 1120px) {
+  @media screen and (max-width: 1135px) {
     .home-img {
       position: relative;
       top: 600px;
-      left: 800px;
+      left: 825px;
       width: 450px;
     }
   }
@@ -73,12 +73,12 @@
     .home-img {
       position: relative;
       top: 600px;
-      left: 650px;
+      left: 690px;
       width: 450px;
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 850px) {
     .home-img {
       display: none;
     }
