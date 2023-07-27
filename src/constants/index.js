@@ -1,8 +1,8 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    research,
+    developer,
+    mentor,
+    business,
     javascript,
     typescript,
     html,
@@ -47,19 +47,19 @@ import {
   const services = [
     {
       title: "Research Intern",
-      icon: web,
+      icon: research,
     },
     {
       title: "Software Developer",
-      icon: mobile,
+      icon: developer,
     },
     {
       title: "Grader, Tutor, Mentor",
-      icon: backend,
+      icon: mentor,
     },
     {
       title: "Business Manager",
-      icon: creator,
+      icon: business,
     },
   ];
   
