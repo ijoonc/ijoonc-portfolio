@@ -107,6 +107,12 @@
     bottom: 67px
   }
 
+  @media screen and (max-width: 767px) {
+    .resume-loader {
+      font-size: 16px;
+    }
+  }
+
   .resume-loader:hover {
     background: var(--main-color);
   }
