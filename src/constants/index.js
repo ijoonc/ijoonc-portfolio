@@ -15,10 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    krauss,
+    etsy,
+    muddsub,
+    grutor,
+    makespp,
+    gems,
+    lace,
     carrent,
     jobit,
     tripguide,
@@ -120,56 +123,94 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Business Manager",
+      company_name: "Etsy",
+      icon: etsy,
+      iconBg: "#eb6d20",
+      date: "June 2020 - August 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Set up the online shop and managed it during the summer.",
+        "Sold affordable, high-quality face masks and clothing for children and adults during the peak of the pandemic.",
+        "Managed shipping, listings, branding, advertisements, and customers' requests for personal modifications on products.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Lead Software Developer",
+      company_name: "MakeSPP 2020 Hackathon",
+      icon: makespp,
+      iconBg: "#fff",
+      date: "October 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with three team members to create a College Preference Calculator in C++.",
+        "Obtained user's financial background description, location preferences, and academic performance as input and our program generated a college recommendation as output.",
+        "Spent 48 hours to create a fully operative system and presented our work at a regional conference."
+      ]
+    },
+    {
+      title: "Mentor",
+      company_name: "Gateway for Exploring Mathematical Sciences (GEMS)",
+      icon: gems,
+      iconBg: "#ffffff",
+      date: "October 2022 - May 2023",
+      points: [
+        "Guide fifty secondary students through workshops and activities to help them understand complex math concepts.",
+        "Help spark the interests and curiosity of young students by applying riveting math theories to scientific areas.",
+        "Prompt students to ignite their curiosity for mathematical sciences so that one day, they can become proud, inspiring leaders in the STEM industry."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Research Intern",
+      company_name: "Krauss Lab Tribology",
+      icon: krauss,
+      iconBg: "#BFE2FB",
+      date: "October 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked with a research mentor and five team members to test the effectiveness of gas-phase synthesized graphene (GSG) as a lubricant.",
+        "Developed Python ML models that quantify the separation and agglomeration of GSG particles in different oils and dispersant additives.",
+        "Experimented with GSG and collected data to measure its friction, wear, and tear reducing properties and potential recyclability.",
+        "Utilized OpenCV, Scikit-Image, and NumPy algorithms to process particles and analyze GSG's impact on prolonging the longevity of various machinery and metals.",
+        "Developed an Image Processing slidedeck to present results at the STLE exhibition in Long Beach, CA."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Developer",
+      company_name: "MuddSub - HMC RoboSub Team",
+      icon: muddsub,
+      iconBg: "#D3D7D9",
+      date: "October 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Member of the MuddSub team: a group of ~120 STEM-focused individuals who collaboratively work together to create autonomous underwater vehicles.",
+        "Worked with 3 team members to design an object navigation system through Python ML models, Kalman Filters, and Recurrent YOLO/DeepSORT algorithms using a custom COCO dataset.",
+        "Experimented with GSG and collected data to measure its friction, wear, and tear reducing properties and potential recyclability.",
+        "Combined computer vision, AI, and particle filter localization fundamentals to create a fully perceptual mechanism that can traverse through bodies of water and avoid obstacles in its path."
+      ]
+    },
+    {
+      title: "Research Intern",
+      company_name: "Learning Agents in Complex Environments (LACE) Lab",
+      icon: lace,
+      iconBg: "#000000",
+      date: "May 2023 - July 2023",
+      points: [
+        "Utilized Model-Based Reinforcement Learning (MBRL) principles to develop artificial agents that make optimal decisions in MinAtar and Atari2600 video game environments.",
+        "Implemented and tested a Python NN framework that predicts appearing object (i.e. bullets appearing when the user or in-game agents click the shoot button) states in different display frames.",
+        "Enhanced C++ Decision Tree predictions of appearing object states by designing simulated, predictive models.",
+        "Provided a measure of the means and variances of appearing objects' positions to sample object states and indicate uncertainties in model predictions.",
+        "Trained both methods to minimize loss and optimize AI performance in real-game scenarios."
+      ]
+    },
+    {
+      title: "Computer Science and Mathematics Grader and Tutor",
+      company_name: "Harvey Mudd College",
+      icon: grutor,
+      iconBg: "#000000",
+      date: "September 2022 - Present",
+      points: [
+        "Teach undergraduates Python, Java, and C++ fundamentals including data structures, OOP, Turing Machines, time and space complexities, and a plethora of efficient algorithms for real-world applications.",
+        "Guide students to explore CS topics that will potentially prompt them to become future computer scientists.",
+        "Grade CS development projects and technical assignments for students.",
+        "Grade Linear Algebra assignments and projects involving matrix analysis, linear combinations, and regression."
+      ]
     },
   ];
   

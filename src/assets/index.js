@@ -21,10 +21,13 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import krauss from "./company/krauss.png";
+import gems from "./company/gems.png";
+import etsy from "./company/etsy.png";
+import makespp from "./company/makespp.png";
+import muddsub from "./company/muddsub.png";
+import grutor from "./company/hmc.png";
+import lace from "./company/lace.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +55,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  krauss,
+  muddsub,
+  lace,
+  grutor,
+  gems,
+  etsy,
+  makespp,
   carrent,
   jobit,
   tripguide,
