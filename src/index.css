@@ -45,6 +45,17 @@
   background-image: linear-gradient(to right, #b6fbff, #83a4d4);
 }
 
+.dark-blue-gradient {
+  background-image: linear-gradient(156.8deg, rgb(30, 144, 231) 27.1%, rgb(67, 101, 225) 77.8%);
+}
+
+.even-darker-blue-gradient {
+  background-image: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(3, 22, 65) 74.2%);}
+
+.cool-blue-gradient {
+  background-image: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
+}
+
 .dark-gradient {
   background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
