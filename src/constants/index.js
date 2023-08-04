@@ -153,9 +153,9 @@ import {
       iconBg: "#ffffff",
       date: "October 2022 - May 2023",
       points: [
-        "Guide fifty secondary students through workshops and activities to help them understand complex math concepts.",
-        "Help spark the interests and curiosity of young students by applying riveting math theories to scientific areas.",
-        "Prompt students to ignite their curiosity for mathematical sciences so that one day, they can become proud, inspiring leaders in the STEM industry."
+        "Guided fifty secondary students through workshops and activities to help them understand complex math concepts.",
+        "Helped spark the interests and curiosity of young students by applying riveting math theories to scientific areas.",
+        "Prompted students to ignite their curiosity for mathematical sciences so that one day, they can become proud, inspiring leaders in the STEM industry."
       ],
     },
     {
@@ -181,7 +181,6 @@ import {
       points: [
         "Member of the MuddSub team: a group of ~120 STEM-focused individuals who collaboratively work together to create autonomous underwater vehicles.",
         "Worked with 3 team members to design an object navigation system through Python ML models, Kalman Filters, and Recurrent YOLO/DeepSORT algorithms using a custom COCO dataset.",
-        "Experimented with GSG and collected data to measure its friction, wear, and tear reducing properties and potential recyclability.",
         "Combined computer vision, AI, and particle filter localization fundamentals to create a fully perceptual mechanism that can traverse through bodies of water and avoid obstacles in its path."
       ]
     },
