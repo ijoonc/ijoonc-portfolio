@@ -16,15 +16,11 @@ import git from "./tech/git.png";
 import jupyter from "./tech/jupyter.png";
 import latex from "./tech/latex.png";
 import rstudio from "./tech/rstudio.png";
-import software from "./tech/software.png";
-import ai from "./tech/ai.png";
-import ml from "./tech/ml.png";
-import cv from "./tech/cv.png";
-import nn from "./tech/nn.png";
-import dt from "./tech/dt.png";
-import algorithms from "./tech/algorithms.png";
-import img_processing from "./tech/img_processing.png";
-import oop from "./tech/oop.png";
+import pytorch from "./tech/pytorch.png";
+import tensorflow from "./tech/tensorflow.png";
+import numpy from "./tech/numpy.png";
+import opencv from "./tech/opencv.png";
+import scikit from "./tech/scikit.png";
 
 import krauss from "./company/krauss.png";
 import gems from "./company/gems.png";
@@ -56,15 +52,11 @@ export {
   jupyter,
   latex,
   rstudio,
-  software,
-  ml,
-  cv,
-  nn,
-  ai,
-  dt,
-  algorithms,
-  img_processing,
-  oop,
+  pytorch,
+  tensorflow,
+  numpy,
+  opencv,
+  scikit,
   krauss,
   muddsub,
   lace,

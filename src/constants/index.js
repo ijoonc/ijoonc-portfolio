@@ -10,16 +10,13 @@ import {
     gc,
     git,
     jupyter,
-    ml,
-    ai,
+    pytorch,
+    tensorflow,
+    numpy,
+    opencv,
+    scikit,
     latex,
     rstudio,
-    cv,
-    nn,
-    dt,
-    oop,
-    algorithms,
-    img_processing,
     krauss,
     etsy,
     muddsub,
@@ -30,7 +27,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    software,
   } from "../assets";
   
   export const navLinks = [
@@ -109,40 +105,24 @@ import {
       icon: rstudio,
     },
     {
-      name: "Software Development",
-      icon: software,
+      name: "PyTorch",
+      icon: pytorch,
     },
     {
-      name: "Machine Learning",
-      icon: ml,
+      name: "Tensorflow",
+      icon: tensorflow,
     },
     {
-      name: "Computer Vision",
-      icon: cv,
+      name: "NumPy",
+      icon: numpy,
     },
     {
-      name: "AI",
-      icon: ai,
+      name: "OpenCV",
+      icon: opencv,
     },
     {
-      name: "Neural Networks",
-      icon: nn,
-    },
-    {
-      name: "Decision Trees",
-      icon: dt,
-    },
-    {
-      name: "Algorithms",
-      icon: algorithms,
-    },
-    {
-      name: "Image Processing",
-      icon: img_processing,
-    },
-    {
-      name: "OOP",
-      icon: oop,
+      name: "Scikit",
+      icon: scikit,
     },
   ];
   
