@@ -7,19 +7,24 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import python from "./tech/python.png";
+import cpp from "./tech/C++.png";
+import java from "./tech/java.png";
+import vs from "./tech/vs.png";
+import gc from "./tech/gc.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import jupyter from "./tech/jupyter.png";
+import latex from "./tech/latex.png";
+import rstudio from "./tech/rstudio.png";
+import software from "./tech/software.png";
+import ai from "./tech/ai.png";
+import ml from "./tech/ml.png";
+import cv from "./tech/cv.png";
+import nn from "./tech/nn.png";
+import dt from "./tech/dt.png";
+import algorithms from "./tech/algorithms.png";
+import img_processing from "./tech/img_processing.png";
+import oop from "./tech/oop.png";
 
 import krauss from "./company/krauss.png";
 import gems from "./company/gems.png";
@@ -42,19 +47,24 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
+  python,
+  cpp,
+  java,
+  vs,
+  gc,
   git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  jupyter,
+  latex,
+  rstudio,
+  software,
+  ml,
+  cv,
+  nn,
+  ai,
+  dt,
+  algorithms,
+  img_processing,
+  oop,
   krauss,
   muddsub,
   lace,

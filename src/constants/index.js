@@ -3,18 +3,23 @@ import {
     developer,
     mentor,
     business,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    java,
+    vs,
+    python,
+    cpp,
+    gc,
     git,
-    figma,
-    docker,
+    jupyter,
+    ml,
+    ai,
+    latex,
+    rstudio,
+    cv,
+    nn,
+    dt,
+    oop,
+    algorithms,
+    img_processing,
     krauss,
     etsy,
     muddsub,
@@ -25,7 +30,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    software,
   } from "../assets";
   
   export const navLinks = [
@@ -68,56 +73,76 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C++",
+      icon: cpp,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Visual Studio",
+      icon: vs,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Google Colab",
+      icon: gc,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Jupyter",
+      icon: jupyter,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "LaTeX",
+      icon: latex,
+    },
+    {
+      name: "RStudio",
+      icon: rstudio,
+    },
+    {
+      name: "Software Development",
+      icon: software,
+    },
+    {
+      name: "Machine Learning",
+      icon: ml,
+    },
+    {
+      name: "Computer Vision",
+      icon: cv,
+    },
+    {
+      name: "AI",
+      icon: ai,
+    },
+    {
+      name: "Neural Networks",
+      icon: nn,
+    },
+    {
+      name: "Decision Trees",
+      icon: dt,
+    },
+    {
+      name: "Algorithms",
+      icon: algorithms,
+    },
+    {
+      name: "Image Processing",
+      icon: img_processing,
+    },
+    {
+      name: "OOP",
+      icon: oop,
     },
   ];
   
