@@ -30,8 +30,8 @@ import muddsub from "./company/muddsub.png";
 import grutor from "./company/hmc.png";
 import lace from "./company/lace.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import particle_simulator from "./particle_simulator.png";
+import weather from "./weather.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -64,7 +64,7 @@ export {
   gems,
   etsy,
   makespp,
-  carrent,
-  jobit,
+  particle_simulator,
+  weather,
   tripguide,
 };
