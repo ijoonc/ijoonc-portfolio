@@ -81,6 +81,10 @@ import {
       icon: java,
     },
     {
+      name: "RStudio",
+      icon: rstudio,
+    }, 
+    {
       name: "Visual Studio",
       icon: vs,
     },
@@ -99,10 +103,6 @@ import {
     {
       name: "LaTeX",
       icon: latex,
-    },
-    {
-      name: "RStudio",
-      icon: rstudio,
     },
     {
       name: "PyTorch",

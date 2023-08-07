@@ -121,3 +121,9 @@
   .gray-text {
     color: #C0C0C0;
   }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
