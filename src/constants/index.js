@@ -416,7 +416,7 @@ import {
         },
       ],
       image: project,
-      source_code_link: "https://github.com/ijoonc/Krauss-Lab-Tribology-Image-Processing-Simulator",
+      source_code_link: "https://github.com/ijoonc/Python-Projects-July-to-August-2022/tree/main",
     }
   ];
   
