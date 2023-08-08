@@ -32,7 +32,9 @@ import lace from "./company/lace.png"
 
 import particle_simulator from "./particle_simulator.png";
 import weather from "./weather.png";
-import tripguide from "./tripguide.png";
+import snake from "./snake.png";
+import bets from "./bets.png";
+import project from "./projects.png";
 
 export {
   logo,
@@ -66,5 +68,7 @@ export {
   makespp,
   particle_simulator,
   weather,
-  tripguide,
+  snake,
+  bets,
+  project
 };

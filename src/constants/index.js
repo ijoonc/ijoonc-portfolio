@@ -26,7 +26,9 @@ import {
     lace,
     particle_simulator,
     weather,
-    tripguide,
+    snake,
+    bets,
+    project
   } from "../assets";
   
   export const navLinks = [
@@ -220,7 +222,7 @@ import {
   
   const projects = [
     {
-      name: "Particle Image Simulator",
+      name: "Particle Image Analyzer",
       description: 
         "ML Simulator that provides an efficient method to threshold images. This image processing simulator applies shading correction to particle images prior to threshold analysis and helps the model learn displacement patterns in different oils and mediums.",
       tags: [
@@ -298,26 +300,124 @@ import {
       source_code_link: "https://github.com/ijoonc/Weather-App-Project",
     },
     {
-      name: "Trip Guide",
+      name: "Spampede Game",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A custom Snake Game with a unique user interface and backend functionality in Java, implemented using the Model-View-Controller software design pattern. This game also has an automated game mode that prompts the AI to find optimal paths using Breadth-First Search algorithms.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Eclipse",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Algorithms",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Object-Oriented Programming",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Data Structures",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Software Development",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: snake,
+      source_code_link: "https://github.com/ijoonc/Spampede-Custom-Snake-Game",
+    },
+    {
+      name: "Sports Betting Model",
+      description:
+        "A Python linear regression model that optimizes users' profits from NBA bettings. It manipulates NBA API variables to test custom ML models that obtain and process statistics online through web scraping. Statistics are available through the Basketball-Reference website.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Visual Studio",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Web Scraping",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Data Visualization",
+          color: "green-text-gradient",
+        },
+        {
+          name: "API Utilization",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Linear Regression",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: bets,
+      source_code_link: "https://github.com/ijoonc/Python-Projects-July-to-August-2022/tree/main/NBA%20Betting%20Model%20Simulator",
+    },
+    {
+      name: "Other Side Projects",
+      description: 
+        "Other side projects I have finished since 2022. Some of these projects include a Face Detection Simulator, Digit Identifier, and Word Analogy Simulator. All of these projects involve Machine Learning and some even utilize unique data structures such as Decision Trees and Random Forests.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Neural Nets",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Visual Studio",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Decision Trees",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Computer Vision",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Data Visualization",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NLP",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: project,
+      source_code_link: "https://github.com/ijoonc/Krauss-Lab-Tribology-Image-Processing-Simulator",
+    }
   ];
   
   export { services, technologies, experiences, projects };
