@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSubmit = (e) => {}
 
   return (
-    <div className = "xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className = "xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div variants = {slideIn('left', 'tween', 0.2, 1)}
                   className = 'flex-[0.75] blue-bg p-8 rounded-2xl'>
 
@@ -37,12 +37,39 @@ const Contact = () => {
             <input type = "text" name = "name" value = {form.name} 
                    onChange = {handleChange} placeholder = "What's your name?"
                    className = 'blue-subtext py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'>
-
-                   </input>
+            </input>
           </label>
+
+          <label className = 'flex flex-col'>
+            <span className = 'text-white font-medium mb-4'>Your Email</span>
+            <input type = "email" name = "email" value = {form.email} 
+                   onChange = {handleChange} placeholder = "What's your email?"
+                   className = 'blue-subtext py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'>
+            </input>
+          </label>
+
+          <label className = 'flex flex-col'>
+            <span className = 'text-white font-medium mb-4'>Your Message</span>
+            <textarea rows = "7" name = "message" value = {form.message} 
+                      onChange = {handleChange} placeholder = "What would you like to say?"
+                      className = 'blue-subtext py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'>
+            </textarea> 
+          </label>
+
+          <button type = "submit" className = "blue-subtext py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
+            {loading ? "Sending..." : "Send"}
+          </button>
+
         </form>
 
       </motion.div>
+
+
+      <motion.div variants = {slideIn('right', 'tween', 0.2, 1)}
+                  className = 'xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+        <EarthCanvas />
+      </motion.div>
+
     </div>
   )
 }
