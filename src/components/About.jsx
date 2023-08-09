@@ -66,8 +66,8 @@ const About = () => {
           <b>Goal/Vision</b>: I wish to utilize my computational intelligence, skillset, and repertoire to make a positive, lasting change in our society. <br /><br />
 
           <b>What I am currently looking for</b>: an internship or research position in the field of Computer Science. <br /><br />
-          I am looking for a group of innovative, creative, and inspiring talent that can provide me real-world technical experiences. 
-          I wish to join a team that can help me to accomplish my dream: <b>to combine my passions for Computer Science and supporting others in need to change the world for the better.</b><br /><br />
+          I am looking for a group of innovative, creative, and inspiring talent that can guide me towards gaining real-world technical experiences. 
+          I wish to join a team that can help me accomplish my dream: <b>to combine my passions for Computer Science and supporting others in need to change the world for the better.</b><br /><br />
       </motion.p>
 
       {/* I display one service card at a time. */}
