@@ -42,8 +42,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experiences",
+      title: "Experiences",
     },
     {
       id: "contact",
@@ -163,7 +163,6 @@ import {
       points: [
         "Guided fifty secondary students through workshops and activities to help them understand complex math concepts.",
         "Helped spark the interests and curiosity of young students by applying riveting math theories to scientific areas.",
-        "Prompted students to ignite their curiosity for mathematical sciences so that one day, they can become proud, inspiring leaders in the STEM industry."
       ],
     },
     {
@@ -175,7 +174,6 @@ import {
       points: [
         "Worked with a research mentor and five team members to test the effectiveness of gas-phase synthesized graphene (GSG) as a lubricant.",
         "Developed Python ML models that quantify the separation and agglomeration of GSG particles in different oils and dispersant additives.",
-        "Experimented with GSG and collected data to measure its friction, wear, and tear reducing properties and potential recyclability.",
         "Utilized OpenCV, Scikit-Image, and NumPy algorithms to process particles and analyze GSG's impact on prolonging the longevity of various machinery and metals.",
         "Developed an Image Processing slidedeck to present results at the STLE exhibition in Long Beach, CA."
       ],
@@ -187,9 +185,8 @@ import {
       iconBg: "#D3D7D9",
       date: "October 2022 - May 2023",
       points: [
-        "Member of the MuddSub team: a group of ~120 STEM-focused individuals who collaboratively work together to create autonomous underwater vehicles.",
         "Worked with 3 team members to design an object navigation system through Python ML models, Kalman Filters, and Recurrent YOLO/DeepSORT algorithms using a custom COCO dataset.",
-        "Combined computer vision, AI, and particle filter localization fundamentals to create a fully perceptual mechanism that can traverse through bodies of water and avoid obstacles in its path."
+        "Combined computer vision, AI, and particle filter localization fundamentals to create a fully perceptual, autonomous mechanism that can traverse through bodies of water and avoid obstacles in its path."
       ]
     },
     {
@@ -200,9 +197,8 @@ import {
       date: "May 2023 - July 2023",
       points: [
         "Utilized Model-Based Reinforcement Learning (MBRL) principles to develop artificial agents that make optimal decisions in MinAtar and Atari2600 video game environments.",
-        "Implemented and tested a Python NN framework that predicts appearing object (i.e. bullets appearing when the user or in-game agents click the shoot button) states in different display frames.",
+        "Implemented and tested a Python NN framework that predicts appearing object states in different display frames.",
         "Enhanced C++ Decision Tree predictions of appearing object states by designing simulated, predictive models.",
-        "Provided a measure of the means and variances of appearing objects' positions to sample object states and indicate uncertainties in model predictions.",
         "Trained both methods to minimize loss and optimize AI performance in real-game scenarios."
       ]
     },
@@ -214,7 +210,6 @@ import {
       date: "September 2022 - Present",
       points: [
         "Teach undergraduates Python, Java, and C++ fundamentals including data structures, OOP, Turing Machines, time and space complexities, and a plethora of efficient algorithms for real-world applications.",
-        "Guide students to explore CS topics that will potentially prompt them to become future computer scientists.",
         "Grade CS development projects and technical assignments for students.",
         "Grade Linear Algebra assignments and projects involving matrix analysis, linear combinations, and regression."
       ]
@@ -258,7 +253,7 @@ import {
     {
       name: "Weather App",
       description:
-        "Web application that displays any particular city's temperature and weather forcasts of the user's choosing. This application uses extracted and processed weather information through the OpenWeatherMap API using JavaScript, React, Axios, and Tailwind.",
+        "Web application that displays any particular city's temperature and weather forecasts of the user's choosing. This application uses extracted and processed weather information through the OpenWeatherMap API using JavaScript, React, Axios, and Tailwind.",
       tags: [
         {
           name: "JavaScript",
