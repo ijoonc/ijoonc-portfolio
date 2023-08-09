@@ -31,7 +31,13 @@ import {
     bets,
     project
   } from "../assets";
+
   
+/**
+ * 
+ * The Navigation Links for my NavBar (Home, About, Experiences, Contact)
+ * 
+ */
   export const navLinks = [
     {
       id: "home",
@@ -51,6 +57,12 @@ import {
     },
   ];
   
+
+/**
+ * 
+ * The Links for my Service Cards
+ * 
+ */
   const services = [
     {
       title: "Research Intern",
@@ -69,7 +81,13 @@ import {
       icon: business,
     },
   ];
-  
+
+
+/**
+ * 
+ * The Technologies I Have Used so Far (at least some of them)
+ * 
+ */
   const technologies = [
     {
       name: "Python",
@@ -129,6 +147,12 @@ import {
     },
   ];
   
+
+/**
+ * 
+ * Relevant Experiences I Have Had
+ * 
+ */
   const experiences = [
     {
       title: "Business Manager",
@@ -215,7 +239,13 @@ import {
       ]
     },
   ];
-  
+
+
+/**
+ * 
+ * Relevant Projects I Have Made (both completed and work-in-progress)
+ * 
+ */
   const projects = [
     {
       name: "Particle Image Analyzer",

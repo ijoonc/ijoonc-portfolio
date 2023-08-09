@@ -1,4 +1,4 @@
-/* Styles for each object in my website. */
+/* Extra styles for each object in my website. */
 
 :root {
   --text-color: #ffffff;
@@ -7,119 +7,127 @@
 }
 
 .social-icon-linkedin {
-    color: #00a0dc;
-    transition: color 0.2s;
-    text-decoration: none;
-  }
+  color: #00a0dc;
+  transition: color 0.2s;
+  text-decoration: none;
+}
   
-  .social-icon-github {
-    color: #999999;
-    transition: color 0.2s;
-    text-decoration: none;
-  }
-  
-  .social-icon-linkedin:hover {
-    color: #ffffff;
-  }
-  
-  .social-icon-github:hover {
-    color: #ffffff;
-  }
-  
-  .home-text {
-    font-size: 150px;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: inline-flex;
-    text-align: center;
-    margin-right: 15px;
-    margin-bottom: 30px;
-  }
+.social-icon-github {
+  color: #999999;
+  transition: color 0.2s;
+  text-decoration: none;
+}
 
+/* Make icon turn white when hovering over it */
+.social-icon-linkedin:hover {
+  color: #ffffff;
+}
+
+/* Make icon turn white when hovering over it */
+.social-icon-github:hover {
+  color: #ffffff;
+}
+
+.home-text {
+  font-size: 150px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-flex;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+/* Profile picture settings */
+.home-img {
+  height: auto;
+  width: 450px;
+  max-width: 30%;
+  position: relative;
+  display: flex;
+  top: 50%;
+  left: 81%;
+  transform: translate(-50%, -50%);
+  border-image: linear-gradient(rgba(4,189,228,1), rgba(2,83,185,1)) 30;
+  border-width: 4px;
+  border-style: solid;
+}
+
+
+/* Media settings change the profile picture dimensions and positions as the window shrinks */
+@media screen and (max-width: 1200px) {
   .home-img {
-    height: auto;
+    position: relative;
+    top: 350px;
+    left: 975px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .home-img {
+    position: relative;
+    top: 600px;
+    left: 825px;
     width: 450px;
-    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home-img {
     position: relative;
-    display: flex;
-    top: 50%;
-    left: 81%;
-    transform: translate(-50%, -50%);
-    border-image: linear-gradient(rgba(4,189,228,1), rgba(2,83,185,1)) 30;
-    border-width: 4px;
-    border-style: solid;
+    top: 600px;
+    left: 690px;
+    width: 450px;
   }
+}
 
-  @media screen and (max-width: 1200px) {
-    .home-img {
-      position: relative;
-      top: 350px;
-      left: 975px;
-      width: 300px;
-    }
+/* After a certain window size (including phones), make the profile picture disappear */
+@media screen and (max-width: 850px) {
+  .home-img {
+    display: none;
   }
+}
 
-  @media screen and (max-width: 1135px) {
-    .home-img {
-      position: relative;
-      top: 600px;
-      left: 825px;
-      width: 450px;
-    }
-  }
+/* Profile LOGO (not profile picture) */
+.Logo {
+  background-image: url(../profile-img.svg);
+}
 
-  @media screen and (max-width: 1000px) {
-    .home-img {
-      position: relative;
-      top: 600px;
-      left: 690px;
-      width: 450px;
-    }
-  }
+.social-icons-container {
+  position: relative;
+  margin-top: 48px;
+}
 
-  @media screen and (max-width: 850px) {
-    .home-img {
-      display: none;
-    }
-  }
+/* Download Resume button settings */
+.resume-loader {
+  padding: 9px 30px;
+  background: transparent;
+  border: 2px solid var(--main-color);
+  border-radius: 30px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-size: var(--p-font);
+  margin-right: 15px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 67px
+}
 
-  .Logo {
-    background-image: url(../profile-img.svg);
-  }
+.resume-loader:hover {
+  background: var(--main-color);
+}
 
-  .social-icons-container {
-    position: relative;
-    margin-top: 48px;
-  }
+.gray-text {
+  color: #C0C0C0;
+}
 
-  .resume-loader {
-    padding: 9px 30px;
-    background: transparent;
-    border: 2px solid var(--main-color);
-    border-radius: 30px;
-    color: var(--text-color);
-    letter-spacing: 1px;
-    font-size: var(--p-font);
-    margin-right: 15px;
-    margin-left: 10px;
-    position: relative;
-    bottom: 67px
-  }
-
-  .resume-loader:hover {
-    background: var(--main-color);
-  }
-
-  .gray-text {
-    color: #C0C0C0;
-  }
-
-  .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .extend-width {
   width: 500px;

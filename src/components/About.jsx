@@ -6,17 +6,31 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion'; 
 import { SectionWrapper } from '../hoc';
 
+
+/**
+ * 
+ * The Service Card object illustrates who I am and what role I have played in the form of a card.
+ * i.e. Software Developer, Research Intern, etc.
+ * 
+ **/
 const ServiceCard = ({ index, title, icon }) => {
   return (
+    
+    // I want each service card to be able to tilt by hovering the cursor over it
     <Tilt className = 'xs:w-[250px] w-full'>
+
+      {/* I want the card to slide in to the right one by one */}
       <motion.div variants = {fadeIn('right', 'spring', 0.5 * index, 0.75)}
                   className = 'w-full ocean-blue-gradient p-[1px] rounded-[20px] shadow-card'>
+        
+        {/* Basic settings for ALL service cards */}
         <div options = {{max: 45, 
                          scale: 1, 
                          speed: 450}}
              className = 'bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly
                           items-center flex-col'>
 
+          {/* Adding an image to the card to add more detail */}
           <img src = {icon} alt = {title} className = 'w-16 h-16 object-contain'/>
           <h3 className = 'text-white text-[20px] font-bold text-center'>{title}</h3>
 
@@ -26,16 +40,22 @@ const ServiceCard = ({ index, title, icon }) => {
   )
 }
 
-
+/**
+ * 
+ * The About Section incorporates basic information about myself and features the Service
+ * Cards defined above.
+ * 
+ **/
 const About = () => {
   return (
     <>
-
+      {/* I want the header to have a sliding animation too! */}
       <motion.div variants = {textVariant()}>
         <p className = {styles.sectionSubText}>Introduction</p>
         <h2 className = {styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
+      {/* I want my basic description to fade into the screen for added details */}
       <motion.p variants = {fadeIn('', '', 0.1, 1)}
                 className = 'mt-4 text-[#d3d3d3] text-[17px] max-w-3xl leading-[30px]'>
           I am currently a rising junior at <b className = 'text-[#efcf00]'><a href = 'https://www.hmc.edu/' target = '_blank'><u>Harvey Mudd College</u></a></b>  who 
@@ -50,12 +70,12 @@ const About = () => {
           I wish to join a team that can help me to accomplish my dream: <b>to combine my passions for Computer Science and supporting others in need to change the world for the better.</b><br /><br />
       </motion.p>
 
+      {/* I display one service card at a time. */}
       <div className = 'mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key = {service.title} index = {index} {...service}/>
         ))}
       </div>
-
     </>
   )
 }

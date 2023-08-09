@@ -1,3 +1,5 @@
+/* This CSS file contains basic decorative and illustrative designs for bodies of text and certain objects. */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
@@ -33,44 +35,73 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.blue-gradient {
-  background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-}
-
 .blue-bg {
   background: rgb(3, 22, 65);
 }
 
+/**
+ * This is the background of a body of text, not the color of the text itself. It is a different shade of blue
+ * when compared to blue-bg.
+ */
 .blue-subtext {
   background: rgb(28, 41, 81);
 }
 
+/**
+ * Blue Gradient 1
+ */
+.blue-gradient {
+  background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+
+/**
+ * Blue Gradient 2
+ */
 .ocean-blue-gradient {
   background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
 }
 
+/**
+ * Blue Gradient 3
+ */
 .morning-blue-gradient {
   background-image: linear-gradient(to right, #b6fbff, #83a4d4);
 }
 
+/**
+ * Blue Gradient 4
+ */
 .dark-blue-gradient {
   background-image: linear-gradient(156.8deg, rgb(30, 144, 231) 27.1%, rgb(67, 101, 225) 77.8%);
 }
 
+/**
+ * Blue Gradient 5
+ */
 .even-darker-blue-gradient {
   background-image: radial-gradient(circle at 85.4% 50.8%, rgb(14, 72, 222) 0%, rgb(3, 22, 65) 74.2%);}
 
+/**
+ * Blue Gradient 6
+ */
 .cool-blue-gradient {
   background-image: radial-gradient(circle at 10% 20%, rgb(75, 108, 183) 0%, rgb(55, 82, 141) 90%);
 }
 
+/**
+ * Blue Gradient 7
+ */
 .down-blue-gradient {
   background: linear-gradient(rgb(3, 22, 65) 76%, rgb(14, 72, 222));
 }
 
+/**
+ * Black to Purple Gradient
+ */
 .dark-gradient {
   background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
+
 
 
 .violet-gradient {

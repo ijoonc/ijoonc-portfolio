@@ -1,5 +1,11 @@
 import { Html, useProgress } from "@react-three/drei";
 
+
+/**
+ * 
+ * This Loader file helps load the Canvas and everything on it -- EarthCanvas, StarsCanvas, etc.
+ * 
+ **/
 const CanvasLoader = () => {
   const { progress } = useProgress();
   return (

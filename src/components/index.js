@@ -1,4 +1,4 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { EarthCanvas, BallCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Home from './Home';
 import Navbar from './Navbar';
@@ -8,6 +8,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
 
+// Export necessary components for my website
 export {
   Hero,
   Home,
@@ -19,6 +20,5 @@ export {
   Contact,
   EarthCanvas, 
   BallCanvas, 
-  ComputersCanvas, 
   StarsCanvas
 }

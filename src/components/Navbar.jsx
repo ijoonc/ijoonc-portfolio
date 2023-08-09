@@ -4,7 +4,15 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
+
+/**
+ * 
+ * This NavBar section contains the implementation details of the NavBar at the top -- both for large and small devices.
+ * 
+ **/
 const Navbar = () => {
+
+  // Basic toggle features
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
@@ -19,7 +27,8 @@ const Navbar = () => {
               className = 'flex items-center gap-2'
               onClick = {() => {setActive("");
                                 window.scrollTo(0, 0);}}>
-                  
+          
+          {/* Creating my logo on the top left */}
           <img src = {logo} alt = "logo" className = 'w-10 h-10 object-contain'/>
           <p className = 'text-white text-[18px] font-bold cursor-pointer'>
             Isaac Chung&nbsp;  
@@ -27,7 +36,8 @@ const Navbar = () => {
           </p>
 
         </Link>
- 
+
+        {/* Functionality for where to move the website when a certain option is clicked */}
         <ul className = 'list-none hidden sm:flex flex-row gap-10'> 
           {navLinks.map((link) => (
             <li key = {link.id}
@@ -43,6 +53,7 @@ const Navbar = () => {
           ))}
         </ul>
         
+        {/* Functionality for where to move the website when a certain option is clicked */}
         <div className = "sm:hidden flex flex-1 justify-end items-center">
           <img src = {toggle ? close : menu}
                alt = "menu"
