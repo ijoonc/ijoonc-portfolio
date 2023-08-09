@@ -111,13 +111,6 @@
     background: var(--main-color);
   }
 
-  @media screen and (max-width: 767px) {
-    .resume-loader {
-      font-size: 14px; 
-      bottom: 69px;
-    }
-  }
-
   .gray-text {
     color: #C0C0C0;
   }
@@ -128,4 +121,17 @@
     align-items: center;
   }
 
+.extend-width {
+  width: 500px;
+}
 
+@media screen and (max-width: 767px) {
+  .resume-loader {
+    font-size: 14px; 
+    bottom: 69px;
+  }
+
+  .extend-width {
+    width: auto;
+  }
+}

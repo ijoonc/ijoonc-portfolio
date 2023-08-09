@@ -11,16 +11,16 @@ import python from "./tech/python.png";
 import cpp from "./tech/C++.png";
 import java from "./tech/java.png";
 import vs from "./tech/vs.png";
-import gc from "./tech/gc.png";
+import js from "./tech/js.png";
 import git from "./tech/git.png";
-import jupyter from "./tech/jupyter.png";
+import react from "./tech/react.png";
 import latex from "./tech/latex.png";
 import rstudio from "./tech/rstudio.png";
 import pytorch from "./tech/pytorch.png";
 import tensorflow from "./tech/tensorflow.png";
-import numpy from "./tech/numpy.png";
+import html from "./tech/html.png";
 import opencv from "./tech/opencv.png";
-import scikit from "./tech/scikit.png";
+import css from "./tech/css.png";
 
 import krauss from "./company/krauss.png";
 import gems from "./company/gems.png";
@@ -49,16 +49,16 @@ export {
   cpp,
   java,
   vs,
-  gc,
+  js,
   git,
-  jupyter,
+  react,
   latex,
   rstudio,
   pytorch,
   tensorflow,
-  numpy,
+  html,
   opencv,
-  scikit,
+  css,
   krauss,
   muddsub,
   lace,

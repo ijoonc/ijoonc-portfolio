@@ -12,7 +12,7 @@ const Tech = () => {
     <motion.div variants={textVariant2()}>
       <h2 className = {`${styles.sectionHeadText} text-center`}>Computer Skills</h2>
       <h5 className = {`${styles.heroSubText} text-center`}>Tools I Have Used So Far</h5>
-      <p className = {`${styles.sectionSubText} text-center`}>Main Programming Languages: Python, C++, Java, R</p>
+      <p className = {`${styles.sectionSubText} text-center`}>Main Programming Languages: Python, C++, Java, R, JavaScript, React, HTML, CSS</p>
       <p className = {`${styles.sectionSubText} text-center`}>Main Software: Visual Studio, Google Colab, Git, Jupyter, LaTeX, RStudio</p>
       <p className = {`${styles.sectionSubText} text-center`}>Main Technical Skills: Software Development, Machine Learning, Computer Vision, AI, Neural Nets, Decision Trees, Algorithms, Data Science, Image Processing, OOP</p>
     </motion.div>

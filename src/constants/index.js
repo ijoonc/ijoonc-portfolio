@@ -1,3 +1,4 @@
+import { Html } from "@react-three/drei";
 import {
     research,
     developer,
@@ -7,14 +8,14 @@ import {
     vs,
     python,
     cpp,
-    gc,
+    js,
     git,
-    jupyter,
+    react,
     pytorch,
     tensorflow,
-    numpy,
+    html,
     opencv,
-    scikit,
+    css,
     latex,
     rstudio,
     krauss,
@@ -87,20 +88,28 @@ import {
       icon: rstudio,
     }, 
     {
+      name: "JavaScript",
+      icon: js,
+    }, 
+    {
+      name: "React",
+      icon: react,
+    }, 
+    {
+      name: "HTML",
+      icon: html,
+    }, 
+    {
+      name: "CSS",
+      icon: css,
+    }, 
+    {
       name: "Visual Studio",
       icon: vs,
     },
     {
-      name: "Google Colab",
-      icon: gc,
-    },
-    {
       name: "Git",
       icon: git,
-    },
-    {
-      name: "Jupyter",
-      icon: jupyter,
     },
     {
       name: "LaTeX",
@@ -115,16 +124,8 @@ import {
       icon: tensorflow,
     },
     {
-      name: "NumPy",
-      icon: numpy,
-    },
-    {
       name: "OpenCV",
       icon: opencv,
-    },
-    {
-      name: "Scikit",
-      icon: scikit,
     },
   ];
   
