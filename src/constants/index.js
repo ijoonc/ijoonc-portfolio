@@ -413,7 +413,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Neural Nets",
+          name: "Data Structures",
           color: "pink-text-gradient",
         },
         {
