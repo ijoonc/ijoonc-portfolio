@@ -413,11 +413,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Data Structures",
+          name: "Visual Studio",
           color: "pink-text-gradient",
         },
         {
-          name: "Visual Studio",
+          name: "AI",
           color: "blue-text-gradient",
         },
         {
@@ -425,7 +425,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "AI",
+          name: "Data Structures",
           color: "pink-text-gradient",
         },
         {
