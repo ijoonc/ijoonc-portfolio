@@ -55,6 +55,14 @@ const ExperienceCard = ({ experience }) => {
  * 
  **/
 const Experience = () => {
+  // Maximum Number of Cards on Mobile Devices
+  const isMobile = window.outerWidth <= 767;
+  let pointsToRender = experiences;
+
+  if (isMobile) {
+    pointsToRender = experiences.slice(2, );
+  }
+
   return (
     <>
 
@@ -67,7 +75,7 @@ const Experience = () => {
       {/* Vertical Timeline Component */}
       <div className = 'mt-10 flex flex-col'>
         <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {pointsToRender.map((experience, index) => (
               <ExperienceCard key = {`experience-${index}`}
                               experience = {experience}/>
             ))}

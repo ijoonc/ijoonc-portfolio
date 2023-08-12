@@ -66,6 +66,14 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
  * 
  */
 const Works = () => {
+  // Maximum Number of Cards on Mobile Devices
+  const isMobile = window.outerWidth <= 767;
+  let pointsToRender = projects;
+
+  if (isMobile) {
+    pointsToRender = projects.slice(1, -1);
+  }
+
   return (
     <>
 
@@ -88,7 +96,7 @@ const Works = () => {
 
       {/* Display each project one by one */}
       <div className = "mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {pointsToRender.map((project, index) => (
           <ProjectCard key = {`project-${index}`} index = {index} {...project}/>
         ))}
       </div>
