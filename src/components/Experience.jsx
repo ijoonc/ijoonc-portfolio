@@ -61,9 +61,7 @@ const Experience = () => {
 
   if (isMobile) {
     pointsToRender = experiences.slice(2, );
-  } else {
-    pointsToRender = experiences;
-  }
+  } 
 
   return (
     <>
