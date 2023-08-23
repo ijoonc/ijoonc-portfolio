@@ -56,10 +56,11 @@ const ExperienceCard = ({ experience }) => {
  **/
 const Experience = () => {
   // Maximum Number of Cards on Mobile Devices
-  const isMobile = window.outerWidth <= 980;
+  const isMobile1 = window.outerWidth <= 980;
+  const isMobile2 = window.innerWidth <= 980;
   let pointsToRender = experiences;
 
-  if (isMobile) {
+  if (isMobile1 && isMobile2) {
     pointsToRender = experiences.slice(2, );
   } 
 
