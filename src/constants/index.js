@@ -29,7 +29,8 @@ import {
     weather,
     snake,
     bets,
-    project
+    project,
+    cats
   } from "../assets";
 
   
@@ -215,7 +216,7 @@ import {
     },
     {
       title: "Research Intern",
-      company_name: "Learning Agents in Complex Environments (LACE) Lab",
+      company_name: "LACE (Learning Agents in Complex Environments) Lab",
       icon: lace,
       iconBg: "#000000",
       date: "May 2023 - July 2023",
@@ -236,6 +237,18 @@ import {
         "Teach undergraduates Python, Java, and C++ fundamentals including data structures, OOP, Turing Machines, time and space complexities, and a plethora of efficient algorithms for real-world applications.",
         "Grade CS development projects and technical assignments for students.",
         "Grade Linear Algebra assignments and projects involving matrix analysis, linear combinations, and regression."
+      ]
+    },
+    {
+      title: "Research Intern",
+      company_name: "Lab for CATS (Cognition and Attention in Time and Space) Lab",
+      icon: cats,
+      iconBg: "#FFFFFF",
+      date: "September 2023 - Present",
+      points: [
+        "Develop solutions, libraries, and tools that will be used in future Computer Vision courses at Harvey Mudd College.",
+        "Build codebases in the field of spatial vision such as stereo calibration, live disparity, and depth calculation.",
+        "Utilize OpenCV, PyTorch, and Torchvision to develop code that demonstrates the underlying concepts of visual processing."
       ]
     },
   ];

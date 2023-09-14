@@ -28,7 +28,8 @@ import etsy from "./company/etsy.png";
 import makespp from "./company/makespp.png";
 import muddsub from "./company/muddsub.png";
 import grutor from "./company/hmc.png";
-import lace from "./company/lace.png"
+import lace from "./company/lace.png";
+import cats from "./company/cats.jpg";
 
 import particle_simulator from "./particle_simulator.png";
 import weather from "./weather.png";
@@ -70,5 +71,6 @@ export {
   weather,
   snake,
   bets,
-  project
+  project,
+  cats
 };
